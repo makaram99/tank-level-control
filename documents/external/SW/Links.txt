@@ -1,0 +1,6 @@
+Ultrasonic HC-SR04 Working Principles				: https://www.youtube.com/watch?v=08dcoXZEtqs&feature=youtu.be
+Ultrasonic HC-SR04 Apps								: https://www.youtube.com/watch?v=pwWk20du8qA
+Tank Level indicator with Arduino					: https://www.youtube.com/watch?v=08dcoXZEtqs&feature=youtu.be
+Interfacing HC-SR04 Ultrasonic Sensor with PIC MCU	: https://electrosome.com/hc-sr04-ultrasonic-sensor-pic/
+Timer1 Working										: https://www.youtube.com/watch?v=up78Mm74ag0
+													: https://www.youtube.com/watch?v=gUT-0IAoh2I&t=7s
