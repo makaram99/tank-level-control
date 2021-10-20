@@ -1,9 +1,9 @@
 /**
- * @file    Tank Level.c
+ * @file    tankLevel.c
  * @author  Mahmoud Karam (ma.karam272@gmail.com)
- * @brief   
- * @version 0.1
- * @date    2021-10-20
+ * @brief   Control level of liquid tank either on filling or empting with HC-SR04 ultrasonic and LCD.
+ * @version 1.0.0
+ * @date    Nov, 17, 2020
  * 
  * @copyright Copyright (c) 2021 for Mahmoud Karam
  *            Licensed to the Apache Software Foundation (ASF) under one
