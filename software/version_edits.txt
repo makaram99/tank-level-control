@@ -1,0 +1,6 @@
+Version 2:
+	* Optimize code to be functional & modular based on Autosar Architecture.
+	* Use progress bar + percentage on its both sides.
+	* Split code into functions.
+	* Add settings page to create new tanks, delete, or rename.
+	* Use Labview Simulation.

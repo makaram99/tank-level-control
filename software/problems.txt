@@ -1,0 +1,4 @@
+When Pump turns on, noise rises up and the text of LCD dims and the MCU reset every few seconds:
+	initial Solution: SW solution by storing pump state in the EEPROM. So, after restarting it checks the last state and continue with it.
+	Roots Solution : Learn how to avoid electrical noise on PCB.
+	
