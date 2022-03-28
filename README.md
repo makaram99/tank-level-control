@@ -6,7 +6,11 @@
 <img src="docs/render.jpg" alt="Render" />
 </p>
 
-This is the render of the final product.
+<sup>
+  ✅ Perform a review and leave a comment <strong><a href="https://github.com/makaram99/tank-level-control/issues/5">here</a></strong><br>
+  ✅ If you want to contribute, add a new record like <a href="contributing.md">here</a><br>
+  ✅ If this needs to be improved, create an issue <strong><a href="https://github.com/makaram99/tank-level-control/issues">here</a></strong>
+</sup>
 
 ---
 
@@ -14,7 +18,7 @@ This is the render of the final product.
 
 <!-- code_chunk_output -->
 ## Table of Contents
-
+- [Table of Contents](#table-of-contents)
 - [🔑 Introduction](#introduction)
 - [🧮 Block Diagram](#block-diagram)
 - [➗ Calculations of Distance](#calculations-of-distance)
@@ -278,26 +282,15 @@ I will always try to improve this project.
 
 ## 💁‍♂️ Contribute
 
-If you want to contribute to the project, you can:
-
-1. Fork the project on your GitHub account.
-2. Develop the project on your own.
-3. Send a pull request to the project on GitHub.
-4. I will review your pull request and add it to the project.
-
----
+If you want to contribute to the project, add a new record like <a href="contributing.md">here</a><br>
 
 ## 📞 Contact me
 
 <p><a href="https://www.linkedin.com/in/makaram99" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> <a href="mailto:ma.karam272@gmail.com" target="_blank"><img alt="Gmail" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Gmail_icon_%282020%29.svg/640px-Gmail_icon_%282020%29.svg.png" height="30" /></a> </p>
 
----
-
 ## 📖 References
 
 - Resources used can be found in resources directories inside [software](software/), [mechanical](mechanical/), and [electrical](electrical/) directories.
-
----
 
 ## 🔓 Licenses
 
@@ -312,8 +305,6 @@ All SOURCE codes & BINARIES are licensed under Mit License.
 <p align="center">
   <img src="https://img.shields.io/badge/license-Mit%20-blue" alt="license"/>
 </p>
-
----
 
 ## 🔏 Credits
 
