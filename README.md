@@ -8,9 +8,12 @@
 
 This is the render of the final product.
 
+---
+
 <!-- @import "[TOC]" {cmd="toc" depthFrom=1 depthTo=6 orderedList=false} -->
 
 <!-- code_chunk_output -->
+## Table of Contents
 
 - [🔑 Introduction](#introduction)
 - [🧮 Block Diagram](#block-diagram)
@@ -32,6 +35,8 @@ This is the render of the final product.
 
 <!-- /code_chunk_output -->
 
+---
+
 ## 🔑 Introduction
 
 Tank Level Control System is a system designed to monitor and control the level of a fluid in a tank.
@@ -48,6 +53,8 @@ It has many applications such:
 1. Process tank: An important function.
 2. Hot water tank: Water is removed, perhaps for washing down, and the level needs to be restored ready for the next wash cycle.
 
+---
+
 ## 🧮 Block Diagram
 
 <p align="center">
@@ -61,9 +68,9 @@ The main components of the system are:
 3. **Controller**: Used to maintain the desired level by starting and stopping the pump depending on the information from the measurement system.
 4. **Pump**: Feeds water from the source to the tank when actuated by the controller.
 
-## ➗ Calculations of Distance
-
 ---
+
+## ➗ Calculations of Distance
 
 With the ultrasonic sensor, it sends ultrasonic waves which get beack to the sensor when hitting any surface (e.g., liquid in our case). The distance between the sensor and the surface is calculated by the following formula:
 
@@ -125,8 +132,6 @@ We can calculate the distance between the sensor and the surface as follows:
   Download:
   - Linux or MacOS: [https://www.gnu.org/software/make/](https://www.gnu.org/software/make/)
   - Windows: [http://gnuwin32.sourceforge.net/packages/make.htm](http://gnuwin32.sourceforge.net/packages/make.htm)
-
----
 
 ---
 
@@ -249,7 +254,6 @@ To generate documentation:
   <img src="mechanical/docs/keypdad_cad_vs_reality.png" alt="Keypad" width="500"/>
 
 ---
-<<<<<<< HEAD
 
 ## 🎯 Results
 
@@ -287,15 +291,16 @@ If you want to contribute to the project, you can:
 
 <p><a href="https://www.linkedin.com/in/makaram99" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> <a href="mailto:ma.karam272@gmail.com" target="_blank"><img alt="Gmail" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Gmail_icon_%282020%29.svg/640px-Gmail_icon_%282020%29.svg.png" height="30" /></a> </p>
 
+---
+
 ## 📖 References
 
 - Resources used can be found in resources directories inside [software](software/), [mechanical](mechanical/), and [electrical](electrical/) directories.
 
+---
+
 ## 🔓 Licenses
 
-=======
-## Licenses
->>>>>>> fa73813c436317ba16b25381388b788faa1ef6fe
 <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"></a><br />All DOCUMENTS inside this work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
 
 All SOURCE codes & BINARIES are licensed under Mit License.

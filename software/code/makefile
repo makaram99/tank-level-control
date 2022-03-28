@@ -51,12 +51,12 @@ TARGET 	= app.hex
 FCPU	= 8000000UL
 # compiler configurations
 CC 		= xc8
-CFLAGS	= -c -O1 -Wall -Wextra -std=c99 -pedantic -Wundef -Wunused-macros -Wcast-align -Wlogical-op -fno-common 
-EXTRACFLAGS = -wtraditional -Wdangling-pointer -Wfloat-conversion -Wsizeof-array-div -Wsizeof-pointer-div -fno-short-enum -Wtraditional-conversion -Wconversion
-DBGFLAGS = -g3
+CFLAGS	= 
+EXTRACFLAGS = 
+DBGFLAGS =
 
 MCU		= 16F877A
-LIBS	= -lm
+LIBS	= 
 
 # Tools options
 OBJCOPY_FLAGS= -j .text -j .data -j .bss -j .rdata 
@@ -76,7 +76,7 @@ BAUDRATE= 115200
 all 	: ${TARGET}
 
 ${TARGET} : makeDirs ${OBJS}
-	${CC} --chip=${MCU} ${OBJS} -O@ -Xlinker -M=${@:%.hex=${debugDIR}/%.map} --OUTPUT=intel
+	${CC} --chip=${MCU} ${OBJS} -O$@ -M${@:%.hex=${debugDIR}/%.map} --OUTPUT=intel
 	
 	${SIZE_SW} -B ${@:%.hex=${debugDIR}/%.bin}
 	
@@ -85,8 +85,8 @@ makeDirs:
 	@-mkdir ${ODIR} ${DDIR} ${debugDIR}
 	
 ${ODIR}/%.obj : ${SDIR}/%.c 
-	${CC} -chip=${MCU} ${CFLAGS} -I "${HDIR}" -V -DF_CPU=${FCPU} --DEBUGGER=pickit3 \
-	$< -o $@ ${LIBS} --DEP=gcc --ECHO --FLOAT=32 --LANG=en 
+	${CC} --chip=${MCU} -C ${CFLAGS} -V -DF_CPU=${FCPU} -I${HDIR} --DEBUGGER=pickit3 \
+	$< -O$@ ${LIBS} --DEP=gcc --ECHO --LANG=en 
 	
 .PHONY	: flash
 flash:
